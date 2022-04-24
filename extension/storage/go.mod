@@ -3,10 +3,12 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/extension/stora
 go 1.17
 
 require (
+	github.com/jackc/pgx/v4 v4.14.1
+	github.com/mattn/go-sqlite3 v1.14.10
 	github.com/stretchr/testify v1.7.0
 	go.etcd.io/bbolt v1.3.6
 	go.opentelemetry.io/collector v0.42.0
-	go.uber.org/zap v1.20.0
+	go.uber.org/zap v1.21.0
 
 )
 
@@ -22,11 +24,9 @@ require (
 	github.com/jackc/pgproto3/v2 v2.2.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b // indirect
 	github.com/jackc/pgtype v1.9.1 // indirect
-	github.com/jackc/pgx/v4 v4.14.1 // indirect
 	github.com/knadh/koanf v1.4.0 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
-	github.com/mattn/go-sqlite3 v1.14.10 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/mapstructure v1.4.3 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
