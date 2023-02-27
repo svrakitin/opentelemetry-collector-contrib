@@ -7,7 +7,7 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/open-telemetry/opentelemetry-collector-contrib v0.64.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/redisreceiver v0.64.0
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.2
 	go.opentelemetry.io/collector v0.64.0
 	go.opentelemetry.io/collector/receiver/otlpreceiver v0.64.0
 	golang.org/x/mod v0.6.0
